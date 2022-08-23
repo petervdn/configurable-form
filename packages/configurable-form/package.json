@@ -1,0 +1,31 @@
+{
+  "name": "@mediamonks/configurable-form",
+  "version": "0.1.0",
+  "description": "Channel-based sound player",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore --ext .ts .",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "homepage": "https://github.com/petervdn/channels/",
+  "dependencies": {
+    "formik": "^2.2.9",
+    "zod": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "date-fns": "^2.29.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "declaration": true,
+    "strict": true,
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./src/**/*.test.ts"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "configurable-form",
+  "private": true,
+  "description": "Configurable form for React",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petervdn/configurable-form.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
